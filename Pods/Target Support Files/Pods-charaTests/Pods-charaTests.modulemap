@@ -1,0 +1,6 @@
+framework module Pods_charaTests {
+  umbrella header "Pods-charaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>245629186738-l8497tlpk45eknpcf66tgmgu6uedivnl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.245629186738-l8497tlpk45eknpcf66tgmgu6uedivnl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDi2_fF7eEm9SNAP1HNGqx6oPRRZw2yiE8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>245629186738</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>JuYoungKim.chara</string>
+	<key>PROJECT_ID</key>
+	<string>chara-d5ce2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chara-d5ce2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:245629186738:ios:050a3339fc3fa72a</string>
+	<key>DATABASE_URL</key>
+	<string>https://chara-d5ce2.firebaseio.com</string>
+</dict>
+</plist>

@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import Firebase
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var storyboard : UIStoryboard?;
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FIRApp.configure()
+        IQKeyboardManager.sharedManager().enable = true
         // Override point for customization after application launch.
+        self.storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
+            if let user = user{
+                self.window?.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationVC");
+                print(user)
+            }else{
+                self.window?.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController");
+            }
+        })
+        
         return true
     }
 
